@@ -78,7 +78,10 @@ class _View_PageState extends State<View_Page> {
               ),
             ),
             Expanded(
-                child: ListView.builder(
+                child: GridView.builder(
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                  ),
               padding: EdgeInsets.only(top: 30),
               itemCount: dataList.length,
               itemBuilder: (context, index) {
