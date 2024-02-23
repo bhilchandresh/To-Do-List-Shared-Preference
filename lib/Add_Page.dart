@@ -9,10 +9,7 @@ class Add_Page extends StatefulWidget {
   @override
   State<Add_Page> createState() => _Add_PageState();
 }
-
 class _Add_PageState extends State<Add_Page> {
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
