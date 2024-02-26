@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 class one extends StatefulWidget {
   const one({super.key});
@@ -11,11 +13,12 @@ class _oneState extends State<one> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    print("hello");
   }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(),
+      body: Container(color: Colors.red),
 
     );
   }
