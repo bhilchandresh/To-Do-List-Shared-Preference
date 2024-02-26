@@ -13,6 +13,7 @@ class _oneState extends State<one> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    print("this is test");
     print("hi123");
   }
   @override
