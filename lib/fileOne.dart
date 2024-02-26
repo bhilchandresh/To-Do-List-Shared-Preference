@@ -13,7 +13,7 @@ class _oneState extends State<one> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    print("hello");
+    print("hi");
   }
   @override
   Widget build(BuildContext context) {
